@@ -13,7 +13,14 @@ Worker Nodes (virtual or physical machine)
 Pod: abstraction over a container
 A Node contains Pods
 A Pod usually runs one container
-A Service is an IP address assigned to a Pot
+A Service is an IP address assigned to a Pot, also a load balancer
 External Service: accessible from outside world, Internal Service accessible only internally from K8s
 Ingress takes the url of the app and forwards it to the Internal Service ip
+Configuration Map CM: contains configuration things like db url
+Secret is like CM and is used to store credentials in an encoded format
+Volumes, attach a physical storage to the pot for permenant storage
+Deployment, a blueprint for Pods (define how pod should be and how many -scaling) is an abstraction over Pods
+Statefulset sts, used for databases to avoid inconsistensies. used like deployments but for databases
+
+
 
