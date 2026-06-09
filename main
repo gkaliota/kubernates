@@ -1,1 +1,8 @@
 
+Control Plane
+  1.API Server (entry point to K8s)
+  2. Controller Manager (Keeps track of whats happening to the cluster)
+  3. Scheduler (ensures pods placement)
+  4. etcd (holds the current state of the K8s state - backing store)
+
+
