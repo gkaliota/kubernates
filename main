@@ -1,8 +1,12 @@
+from https://www.youtube.com/watch?v=s_o8dwzRlu4
 
-Control Plane
-  1.API Server (entry point to K8s)
+
+
+Control Plane (can have multiple master nodes control planes for redudancy)
+  1.API Server (entry point to K8s - UI, API, CLI)
   2. Controller Manager (Keeps track of whats happening to the cluster)
   3. Scheduler (ensures pods placement)
   4. etcd (holds the current state of the K8s state - backing store)
 
+Worker Nodes
 
