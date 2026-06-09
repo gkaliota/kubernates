@@ -8,5 +8,12 @@ Control Plane (can have multiple master nodes control planes for redudancy)
   3. Scheduler (ensures pods placement)
   4. etcd (holds the current state of the K8s state - backing store)
 
-Worker Nodes
+Worker Nodes (virtual or physical machine)
+
+Pod: abstraction over a container
+A Node contains Pods
+A Pod usually runs one container
+A Service is an IP address assigned to a Pot
+External Service: accessible from outside world, Internal Service accessible only internally from K8s
+Ingress takes the url of the app and forwards it to the Internal Service ip
 
