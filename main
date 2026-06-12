@@ -23,4 +23,10 @@ Deployment, a blueprint for Pods (define how pod should be and how many -scaling
 Statefulset sts, used for databases to avoid inconsistensies. used like deployments but for databases
 
 
+minicube: open source tool that creates an one node k8s that has one master and one working node just for local testing on our pc.
+use cubectl to interact with minicube throught ctl
+
+
+
+
 
